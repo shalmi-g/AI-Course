@@ -1,0 +1,20 @@
+n = int(input("Enter number of terms in the series: "))
+
+i = 0
+j = 1
+add = 0
+terms = 0
+
+if ( n < 0 ):
+	print ("Invalid number.")
+	exit
+elif ( n == 1):
+	print ("Fibonacci series: ", i)
+else:
+	print ("Fibonacci series: ")
+	while (terms < n):
+		print (i)
+		add = i + j
+		i = j
+		j = add
+		terms = terms + 1
