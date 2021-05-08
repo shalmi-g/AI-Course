@@ -1,0 +1,14 @@
+list1 = [ ]
+list2 = [ ]
+
+n = int(input("Enter number of elements you want to enter: "))
+
+for n in range (0, n):
+	num = int(input("Enter element: "))
+	list1.append(num)
+	if (num >= 0):
+		list2.append(num)
+		
+print ("Input: list1 = ", list1)
+print ("Output: ", list2)
+	
